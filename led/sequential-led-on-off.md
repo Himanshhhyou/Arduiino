@@ -20,8 +20,6 @@ void setup(){
   	pinMode(led4, OUTPUT); 
   	pinMode(led5, OUTPUT);
   	pinMode(led6, OUTPUT);
-  
- 	Serial.begin(9600);
 }
 
 void loop(){
