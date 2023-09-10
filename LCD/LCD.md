@@ -1,24 +1,42 @@
 # Arduino sketch for LCD
 
 ## Circuit Diagram
-<img src = 'img/lcd_circuit.png'>
+<img src = 'img/lcd-circuit.png'>
+
+<br>
+
+|   Components   |
+------------------
+| Arduino Uno R3 |
+| LCD 16x2 |
+| 10k ohm Potentiometer |
+| 220 ohm Resistor |
+
 
 ## Sketch
-``` c
+
+```c
 #include <LiquidCrystal.h>
 
-const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
+// Defines the pins that are connected to the LCD display.
+const int rs = 7, en = 6, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
+
+// Create an object of the LiquidCrystal class.
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 void setup() {
+  // Initialize the LCD display.
   lcd.begin(16, 2);
-  lcd.print("Hello World!");
-}
+
+  // Print the message on the LCD display.
+  lcd.print("Himanshu");
 
 void loop() {
-  
+
 }
 ```
+
+
 - LCD RS pin to digital pin 12
 - LCD Enable pin to digital pin 11
 - LCD D4 pin to digital pin 5
