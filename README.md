@@ -1,33 +1,23 @@
-# Indtroduction
+# Projects
+There are many different types of projects created with Arduino.
 
-Arduino is an open-source electronics platform based on easy-to-use hardware and software. It is intended to make the process of creating interactive electronic projects accessible to everyone.
+## LED
+### LED with push button
+Interfacing a LED with a push button, when button is pressed then the LED will glow otherwise not.<br>
+[See sketch and circuit](led/led-with-push-btn.md)
 
-## Hardware
+### Sequential LED on/off
+Interfacing 6 LEDs with Arduino which first one by one on and then one by one off every second.<br>
+[See sketch and circuit](led/sequential-led-on-off.md)
 
-The Arduino hardware consists of a small microcontroller board, a USB cable, and a breadboard. The microcontroller board is the brains of the Arduino project, and it is responsible for executing the code that you write. The USB cable is used to connect the Arduino board to your computer, and it allows you to upload your code to the board. The breadboard is used to connect the components of your project to the Arduino board.
+## Buzzer
+Interfacing a buzzer for playing 1khz sound signal.<br>
+[See sketch and circuit](buzzer/buzzer.md)
 
-## Software
+## LCD
+Interfacing a 16x2 LCD for print a simple message on LCD.<br>
+[See sketch and circuit](lcd/lcd.md)
 
-The Arduino software consists of a programming language and an integrated development environment (IDE). The programming language is based on C++, and it is designed to be easy to learn and use. The IDE is a graphical user interface that makes it easy to write and upload code to the Arduino board.
-
-## Projects
-
-There are many different types of projects that you can create with Arduino. Some popular projects include:
-
-* LED blinking
-* Button press detection
-* Servo motor control
-* Analog sensor reading
-* Digital sensor reading
-* Internet of Things (IoT) projects
-
-## Getting Started
-
-If you are interested in getting started with Arduino, there are many resources available online. You can find tutorials, projects, and even pre-made kits that can help you get started.
-
-## Learn More
-
-* [Arduino website](https://www.arduino.cc/)
-* [Arduino tutorial](https://www.arduino.cc/en/tutorial/)
-* [Arduino projects](https://www.arduino.cc/en/projects/)
-* [Arduino kits](https://www.arduino.cc/en/kits/)
+## Keypad
+Interfacing a 4x4 Keypad which print pressed key in serial monitor. <br>
+[See sketch and circuit](keypad/keypad.md)
