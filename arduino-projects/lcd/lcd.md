@@ -27,7 +27,7 @@ void setup() {
 
   // Print the message on the LCD display.
   lcd.print("Himanshu");
-
+}
 void loop() {
 
 }
