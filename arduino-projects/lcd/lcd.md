@@ -3,14 +3,11 @@
 ## Circuit Diagram
 <img src = 'img/lcd-circuit.png'>
 
-<br>
-
-|   Components   |
-------------------
-| Arduino Uno R3 |
-| LCD 16x2 |
-| 10k ohm Potentiometer |
-| 220 ohm Resistor |
+## Components
+- Arduino Uno R3 
+- LCD 16x2 
+- 10k ohm Potentiometer 
+- 220 ohm Resistor 
 
 
 ## Sketch
