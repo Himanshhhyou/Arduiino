@@ -33,6 +33,7 @@ void loop() {
 }
 ```
 
+## Connection of LCD pins with Arduino Uno board
 
 - LCD RS pin to digital pin 12
 - LCD Enable pin to digital pin 11
